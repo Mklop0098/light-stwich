@@ -1,0 +1,224 @@
+.toggle {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(151 221 238);
+    position: relative;
+    border: 2px solid rgb(114 204 227) ;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.toggle-night {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background: #212433;
+    position: relative;
+    border: 2px solid #151721 ;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.toggle-button {
+    height: 34px;
+    width: 34px;
+    box-shadow: 0 0 4px 4px rgb(252, 252, 90);
+    background: rgb(255 251 169);
+    border-radius: 100%;
+    top: 6px;
+    left: 6px;
+    position: absolute;
+    z-index: 1000;
+    transition: all 0.5s ease;
+
+}
+
+.n-star {
+    position: absolute;
+    transition: all 0.5s ease;
+    width: 50px;
+    height: 50px;
+    top: -50px;
+    left: 0;
+}
+
+.toggle-night > .toggle-button {
+    background: rgb(229, 229, 229);
+    box-shadow: 0 0 4px 4px rgb(183, 183, 183);
+    transform: translate(50px, 0);
+}
+
+
+.toggle-night > .n-star {
+    transform: translate(0, 50px);
+}
+
+.cloud {
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.cloud.top {
+    height: 15px;
+    width: 15px;
+    top: 60%;
+    left: 60%;
+}
+
+.cloud.top-1 {
+    height: 15px;
+    width: 15px;
+    top: 50%;
+    left: 70%;
+}
+
+.cloud.top-2 {
+    height: 15px;
+    width: 15px;
+    top: 55%;
+    left: 80%;
+}
+
+.cloud.top-3 {
+    height: 15px;
+    width: 15px;
+    top: 65%;
+    left: 90%;
+}
+
+.cloud.top-4 {
+    height: 15px;
+    width: 15px;
+    top: 85%;
+    left: 6%;
+    border-radius: 100%;
+}
+
+.cloud.top-5 {
+    height: 15px;
+    width: 15px;
+    top: 75%;
+    left: 17%;
+    border-radius: 100%;
+}
+
+.cloud.top-6 {
+    height: 15px;
+    width: 15px;
+    top: 80%;
+    left: 30%;
+    border-radius: 100%;
+}
+
+.cloud.top-7 {
+    height: 15px;
+    width: 15px;
+    top: 85%;
+    left: 53%;
+    border-radius: 100%;
+}
+
+.cloud.top-8 {
+    height: 15px;
+    width: 15px;
+    top: 88%;
+    left: 43%;
+    border-radius: 100%;
+}
+
+.cloud.top-9 {
+    height: 50px;
+    width: 50px;
+    top: 80%;
+    left: 54%;
+    border-radius: 100%;
+}
+
+
+.cloud-behind {
+    position: absolute;
+    background-color: #d0e6fa;
+    border-radius: 100%;
+}
+
+.cloud-behind.top {
+    height: 18px;
+    width: 18px;
+    top: 44%;
+    left: 55%;
+}
+
+.cloud-behind.top-1 {
+    height: 15px;
+    width: 15px;
+    top: 50%;
+    left: 70%;
+}
+
+.cloud-behind.top-2 {
+    height: 20px;
+    width: 20px;
+    top: 30%;
+    left: 70%;
+}
+
+.cloud-behind.top-3 {
+    height: 15px;
+    width: 15px;
+    top: 43%;
+    left: 86%;
+}
+
+.cloud-behind.top-4 {
+    height: 20px;
+    width: 20px;
+    top: 65%;
+    left: 30%;
+    border-radius: 100%;
+}
+
+.cloud-behind.top-5 {
+    height: 15px;
+    width: 15px;
+    top: 70%;
+    left: 48%;
+    border-radius: 100%;
+}
+
+.star-1 {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 4px 1px white;
+    border-radius: 100%;
+    top: 22%;
+    left: 35%;
+    width: 2px;
+    height: 2px;
+
+}
+.star-2 {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 4px 1px white;
+    border-radius: 100%;
+    top: 34%;
+    left: 53%;
+    width: 2px;
+    height: 2px;
+
+}
+.star-3 {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 4px 1px white;
+    border-radius: 100%;
+    top: 44%;
+    left: 35%;
+    width: 4px;
+    height: 4px;
+
+}
